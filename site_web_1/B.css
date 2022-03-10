@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Roboto" ,sans-serif;
+    
+}
+.container{
+    height:100vh;
+    width: 100%;
+    background-image: url(images/martin-garrix-logo-dj-z7523.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 90px;
+    cursor: pointer;
+    
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top :30%;
+    
+}
+.left-col{
+    margin-left: 6%;
+    
+}
+.left-col h1{
+    font-size: 90px;
+    color: #fff;
+    line-height: 110px;
+    float: left;
+}
+.centre{
+    font-size: 30px;
+    color: #fff;
+    line-height:50px;
+    float: right;
+    margin-right:10%;
+    margin-top: 0px;
+}
+  
+img {
+    width:  40%;
+    cursor: pointer;
+ 
+    
+}
+.right-col{
+        
+
+    width: 250px;    
+    float: right;
+    margin-right: 20%;
+    margin-left: 80%;
+    margin-top: -12%;
+    display:flex;
+    align-items: center;
+}
+.right-col p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    margin-right: 15px;
+}
+#icon {
+    width: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

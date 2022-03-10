@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>The Business</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="site_web_4/B.css">
+        
+        </head> 
+    <body>
+    <div class="container">
+        <div class ="navbar">
+            <img src="images/audiusco.png" class="logo">
+            <ul>
+            <li><a href="Projet.html">HOME</a></li>
+                
+            <li><a href="index5.html">SIGN IN </a></li>
+            <li><a href="index6.html">ABOUT</a></li> 
+                
+                
+                
+                
+                
+                
+            </ul>
+        </div>
+        <div class="content">
+            <div class="left-col">
+           
+            <h1> THE<br> Music  <br> Store</h1>
+                 </div>
+            <div class="centre">
+                <h1><strong>The Business</strong></h1>
+            
+            <h2> Tiësto</h2>
+            </div>
+            <div class="right-col">
+                <p>Click here To Listen </p>
+                <img src="site_web_4/images/8i65B8AXT.png" id="icon">
+            </div>
+        </div>
+        
+        </div>  
+        
+        
+        
+        <audio id ="mySong">
+            <source src="site_web_4/images/tiesto-the-business-official-music-video.mp3" type="audio/mp3">
+ 
+        </audio>
+        <script>
+            var mySong =document.getElementById("mySong");
+            var icon =document.getElementById("icon");
+            icon.onclick=function(){
+               if (mySong.paused){
+                   mySong.play();
+                   icon.src ="site_web_4/images/play-pause-button-transparent-25.png";
+                  
+                       
+                   }else{
+                       mySong.pause();
+                       icon.src ="site_web_4/images/8i65B8AXT.png";
+                   }
+               }
+            
+        
+        
+        
+        </script>
+        
+        
+    </body>
+</html>
